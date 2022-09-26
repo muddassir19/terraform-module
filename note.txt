@@ -1,0 +1,13 @@
+provision AWS service using Terraform modules..
+#Creating the modules for reuseability of the code.
+#Creating 4 modules 
+1.vpc
+2.subnet
+3.Network Interface
+4.Security group
+5. Instance
+
+# one module can use multiple providers example- ap-south-1 and us-east-1
+- create a alias provider block in provider file.
+#Config floder..
+#Creating multiple resource using For_each Loops....
